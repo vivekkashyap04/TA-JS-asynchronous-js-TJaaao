@@ -1,0 +1,200 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 40px auto;
+  padding: 10px;
+  width: 70%;
+}
+img {
+  width: 100%;
+}
+.col-30 {
+  width: 50%;
+}
+.col-50 {
+  width: 40%;
+  position: relative;
+}
+header {
+  background-color: black;
+  color: white;
+  padding: 12px 0;
+}
+h1 {
+  font-size: 24px;
+  text-align: center;
+}
+button {
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+body {
+  font-size: 16px;
+  line-height: 1.2;
+}
+h2 {
+  color: tomato;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.select-container {
+  text-align: center;
+  margin-top: 10px;
+}
+.select-container select {
+  padding: 1rem;
+  font-size: 1.1rem;
+  width: 300px;
+  border-radius: 5px;
+}
+
+button a {
+  color: white;
+  background-color: rgb(72, 72, 121);
+}
+
+.iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 480px;
+  height: 480px;
+}
