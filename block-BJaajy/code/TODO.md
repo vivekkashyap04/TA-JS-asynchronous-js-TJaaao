@@ -6,7 +6,8 @@
 
   - https://random.dog/woof.json
   - https://aws.random.cat/meow
-
+let url = ["https://random.dog/woof.json","https://aws.random.cat/meow"];
+Promise.race(url.map(url => fetch(url))).then(res =>  res.json()).then(value => console.log(value));
 - Use `Promise.allSettled` to log the value of each promise from the given list of promises. And also check if `Promise.all` works with `one`, `two` and `three` or not
 
 ```js
