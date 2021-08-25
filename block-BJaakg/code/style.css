@@ -150,4 +150,43 @@ li {
 
 .container {
   display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #3b898a;
+  width: 100%;
+}
+
+@keyframes donut-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.donut {
+  display: inline-block;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #7983ff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: donut-spin 1.2s linear infinite;
+}
+
+.main {
+  position: relative;
+}
+.close {
+  float: right;
+  margin-right: 20px;
+}
+.list {
+  border: 1px solid gold;
+  padding: 10px;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 20px;
 }
